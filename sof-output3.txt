@@ -1,0 +1,11 @@
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-35-generic root=UUID=b12a2d26-57cf-4c49-bc20-fdd003cd9726 ro quiet splash snd_intel_dspcfg.dsp_driver=1 options snd_sof_intel_hda_dsp vert-tp-unsol=1 vt.handoff=7
+[    0.026359] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.14.0-35-generic root=UUID=b12a2d26-57cf-4c49-bc20-fdd003cd9726 ro quiet splash snd_intel_dspcfg.dsp_driver=1 options snd_sof_intel_hda_dsp vert-tp-unsol=1 vt.handoff=7
+[    0.026499] Unknown kernel command line parameters "splash options snd_sof_intel_hda_dsp BOOT_IMAGE=/boot/vmlinuz-6.14.0-35-generic vert-tp-unsol=1", will be passed to user space.
+[    0.027649] software IO TLB: area num 4.
+[    0.250381] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.250383] software IO TLB: mapped [mem 0x000000006f066000-0x0000000073066000] (64MB)
+[    0.404246] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[    0.404265] integrity: Loaded X.509 cert 'Microsoft UEFI CA 2023: 81aa6b3244c935bce0d6628af39827421e32497d'
+[    0.404283] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[    0.404302] integrity: Loaded X.509 cert 'Microsoft Corporation: Windows UEFI CA 2023: aefc5fbbbe055d8f8daa585473499417ab5a5272'
+[    0.440005]     snd_sof_intel_hda_dsp
