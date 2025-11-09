@@ -1,0 +1,413 @@
+[    0.025635] software IO TLB: area num 4.
+[    0.265201] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.265202] software IO TLB: mapped [mem 0x000000006f066000-0x0000000073066000] (64MB)
+[    0.392243] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
+[    0.392260] integrity: Loaded X.509 cert 'Microsoft UEFI CA 2023: 81aa6b3244c935bce0d6628af39827421e32497d'
+[    0.392276] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
+[    0.392291] integrity: Loaded X.509 cert 'Microsoft Corporation: Windows UEFI CA 2023: aefc5fbbbe055d8f8daa585473499417ab5a5272'
+[    5.703599] sof-audio-pci-intel-tgl 0000:00:1f.3: DSP detected with PCI class/subclass/prog-if 0x040100
+[    5.705815] sof-audio-pci-intel-tgl 0000:00:1f.3: bound 0000:00:02.0 (ops i915_audio_component_bind_ops [i915])
+[    5.713400] sof-audio-pci-intel-tgl 0000:00:1f.3: use msi interrupt mode
+[    5.731581] sof-audio-pci-intel-tgl 0000:00:1f.3: NHLT table not found
+[    5.731698] sof-audio-pci-intel-tgl 0000:00:1f.3: hda codecs found, mask 4
+[    5.731705] sof-audio-pci-intel-tgl 0000:00:1f.3: BT link detected in NHLT tables: 0x0
+[    5.731711] sof-audio-pci-intel-tgl 0000:00:1f.3: DMICs detected in NHLT tables: 0
+[    5.740600] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware paths/files for ipc type 0:
+[    5.740612] sof-audio-pci-intel-tgl 0000:00:1f.3:  Firmware file:     intel/sof/community/sof-tgl.ri
+[    5.740617] sof-audio-pci-intel-tgl 0000:00:1f.3:  Topology file:     intel/sof-tplg/sof-tgl-rt5682-ssp0-max98373-ssp2.tplg
+[    5.746158] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware info: version 2:2:0-57864
+[    5.746168] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware: ABI 3:22:1 Kernel ABI 3:23:1
+[    5.860390] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware info: version 2:2:0-57864
+[    5.860402] sof-audio-pci-intel-tgl 0000:00:1f.3: Firmware: ABI 3:22:1 Kernel ABI 3:23:1
+[    6.552165] sof-audio-pci-intel-tgl 0000:00:1f.3: Topology: ABI 3:22:1 Kernel ABI 3:23:1
+[    6.552804] sof_rt5682 tgl_rt5682_def: ASoC: Parent card not yet available, widget card binding deferred
+[    6.705335] input: sof-rt5682 Headset Jack as /devices/pci0000:00/0000:00:1f.3/tgl_rt5682_def/sound/card0/input24
+[    6.705465] input: sof-rt5682 HDMI/DP,pcm=2 as /devices/pci0000:00/0000:00:1f.3/tgl_rt5682_def/sound/card0/input25
+[    6.705588] input: sof-rt5682 HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1f.3/tgl_rt5682_def/sound/card0/input26
+[    6.705700] input: sof-rt5682 HDMI/DP,pcm=4 as /devices/pci0000:00/0000:00:1f.3/tgl_rt5682_def/sound/card0/input27
+[    6.705819] input: sof-rt5682 HDMI/DP,pcm=5 as /devices/pci0000:00/0000:00:1f.3/tgl_rt5682_def/sound/card0/input28
+[   10.636162] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.636169] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.636171] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.637086] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.637091] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.637093] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.638036] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.638039] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.638040] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.638962] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.638964] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.638965] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.639851] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.639853] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.639854] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.640890] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.640894] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.640895] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.641773] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.641776] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.641778] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.642638] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.642641] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.642642] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.643552] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.643555] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.643556] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.644442] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.644444] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.644445] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.661689] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.661695] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.661697] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.662647] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.662649] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.662651] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.663595] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.663603] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.663605] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.664518] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.664521] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.664523] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.665422] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.665425] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.665426] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.683114] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.683120] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.683122] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.684092] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.684098] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.684100] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.685080] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.685084] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.685086] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.686054] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.686058] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.686059] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.687041] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.687045] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.687047] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.688234] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.688241] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.688244] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.689209] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.689214] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.689216] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.690145] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.690152] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.690154] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.691053] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.691057] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.691059] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.692005] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.692010] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.692013] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.711132] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.711142] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.711145] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.712351] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.712359] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.712362] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.713332] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.713339] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.713342] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.714332] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.714339] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.714342] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.715316] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.715321] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.715323] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.716532] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.716538] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.716540] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.717517] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.717521] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.717522] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.718499] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.718502] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.718503] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.719438] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.719442] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.719443] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.720387] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.720390] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.720391] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.721519] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.721523] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.721526] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.722484] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.722487] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.722488] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.723426] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.723429] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.723430] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.724330] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.724334] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.724335] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.725267] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.725270] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.725271] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.742613] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.742622] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.742624] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.743587] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.743616] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.743625] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.744602] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.744605] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.744606] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.745544] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.745546] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.745547] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.746423] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.746425] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.746443] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.747493] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.747498] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.747499] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.748403] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.748407] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.748408] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.749335] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.749337] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.749338] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.750261] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.750264] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.750265] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.751182] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.751190] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.751191] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.767254] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.767260] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.767262] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.768262] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.768266] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.768267] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.769239] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.769243] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.769244] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.770242] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.770245] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.770247] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.771235] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.771238] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.771240] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.772488] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.772493] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.772494] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.773529] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.773534] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.773536] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.774511] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.774516] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.774518] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.775489] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.775502] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.775504] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.776468] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   10.776473] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.776475] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   10.778515] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   10.778520] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.778522] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   10.779237] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   10.779243] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.779246] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   10.779971] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   10.779978] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.779980] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   10.780682] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   10.780686] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   10.780688] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   26.737909] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.737932] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.737939] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.739022] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.739037] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.739042] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.740147] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.740156] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.740160] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.741180] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.741189] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.741194] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.742196] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.742206] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.742213] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.743630] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.743645] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.743648] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.744647] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.744658] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.744661] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.745658] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.745667] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.745671] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.746675] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.746685] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.746690] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.747675] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.747685] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.747690] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.766989] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.767006] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.767010] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.768290] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.768303] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.768310] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.769560] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.769575] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.769581] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.773486] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.773504] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.773511] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.774785] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.774798] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.774805] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.777055] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.777069] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.777075] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.778335] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.778347] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.778354] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.779568] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.779582] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.779588] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.780838] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.780851] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.780883] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.782193] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.782204] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.782210] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.807056] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.807073] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.807077] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.808168] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.808180] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.808185] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.809262] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.809273] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.809280] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.810342] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.810353] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.810359] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.811419] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.811429] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.811435] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.830810] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.830825] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.830829] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.831968] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.831978] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.831982] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.833035] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.833045] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.833052] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.834131] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.834142] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.834148] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.835296] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.835310] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.835316] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.856490] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.856512] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.856519] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.860847] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.860873] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.860881] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.862157] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.862169] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.862175] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.864763] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.864778] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.864784] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.867602] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.867616] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.867623] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.888153] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.888176] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.888183] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.889519] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.889531] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.889537] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.890908] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.890921] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.890927] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.892276] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.892288] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.892293] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.893718] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.893733] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.893741] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.914573] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.914590] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.914597] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.916172] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.916185] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.916189] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.917571] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.917585] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.917592] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.918879] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.918891] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.918898] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.920184] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.920196] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.920201] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.941880] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.941895] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.941899] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.942951] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.942961] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.942966] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.944073] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.944085] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.944092] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.945228] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.945240] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.945246] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.946356] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.946366] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.946372] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.948260] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.948270] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.948274] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.949349] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.949360] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.949366] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.950564] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.950580] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.950587] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.951887] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.951900] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.951907] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.953113] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.953124] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.953129] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.954934] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.954946] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.954953] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.956198] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.956211] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.956217] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.957358] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.957367] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.957372] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.958547] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.958561] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.958568] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.959834] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -5
+[   26.959846] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.959853] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -5
+[   26.963331] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   26.963350] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.963357] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   26.964189] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   26.964198] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.964201] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   26.965045] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   26.965057] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.965063] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+[   26.965950] sof-audio-pci-intel-tgl 0000:00:1f.3: ipc tx error for 0x60010000 (msg/reply size: 108/20): -22
+[   26.965964] sof-audio-pci-intel-tgl 0000:00:1f.3: HW params ipc failed for stream 1
+[   26.965970] sof-audio-pci-intel-tgl 0000:00:1f.3: ASoC: error at snd_soc_pcm_component_hw_params on 0000:00:1f.3: -22
+fernandoe@fernandoe:~$ 
