@@ -1,0 +1,35 @@
+  *-usb:1                   
+       description: Video
+       product: USB2.0 HD UVC WebCam
+       vendor: Quanta
+       physical id: 4
+       bus info: usb@3:4
+       version: 0.02
+       serial: 0x0001
+       capabilities: usb-2.01
+       configuration: driver=uvcvideo maxpower=500mA speed=480Mbit/s
+  *-multimedia
+       description: Multimedia audio controller
+       product: Tiger Lake-LP Smart Sound Technology Audio Controller
+       vendor: Intel Corporation
+       physical id: 1f.3
+       bus info: pci@0000:00:1f.3
+       logical name: card0
+       logical name: /dev/snd/controlC0
+       logical name: /dev/snd/hwC0D2
+       logical name: /dev/snd/pcmC0D0c
+       logical name: /dev/snd/pcmC0D0p
+       logical name: /dev/snd/pcmC0D100c
+       logical name: /dev/snd/pcmC0D1c
+       logical name: /dev/snd/pcmC0D1p
+       logical name: /dev/snd/pcmC0D2p
+       logical name: /dev/snd/pcmC0D3p
+       logical name: /dev/snd/pcmC0D4p
+       logical name: /dev/snd/pcmC0D5p
+       logical name: /dev/snd/pcmC0D99c
+       version: 20
+       width: 64 bits
+       clock: 33MHz
+       capabilities: pm msi bus_master cap_list
+       configuration: driver=sof-audio-pci-intel-tgl latency=64
+       resources: irq:171 memory:a6874000-a6877fff memory:a6900000-a69ffff
