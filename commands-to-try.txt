@@ -1,0 +1,1 @@
+sudo dmesg | grep -E 'sof|sound|audio|hda|skl|tgl' > ~/sound_debug_log.txt
