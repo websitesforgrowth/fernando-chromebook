@@ -1,15 +1,20 @@
-fernandoe@fernandoe:~$ aplay -l
-aplay: device_list:277: no soundcards found...
-fernandoe@fernandoe:~$ lspci -nnk | grep -i audio
-00:1f.3 Multimedia audio controller [0401]: Intel Corporation Tiger Lake-LP Smart Sound Technology Audio Controller [8086:a0c8] (rev 20)
-	DeviceName: Multimedia audio controllerfernandoe@fernandoe:~$ sudo dmesg | grep -E 'sof|sound|audio|hda'
-[sudo] password for fernandoe:           
-[    0.024840] software IO TLB: area num 4.
-[    0.229979] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
-[    0.229980] software IO TLB: mapped [mem 0x000000006f066000-0x0000000073066000] (64MB)
-[    0.367205] integrity: Loaded X.509 cert 'Microsoft Corporation UEFI CA 2011: 13adbf4309bd82709c8cd54f316ed522988a1bd4'
-[    0.367222] integrity: Loaded X.509 cert 'Microsoft UEFI CA 2023: 81aa6b3244c935bce0d6628af39827421e32497d'
-[    0.367238] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
-[    0.367253] integrity: Loaded X.509 cert 'Microsoft Corporation: Windows UEFI CA 2023: aefc5fbbbe055d8f8daa585473499417ab5a5272'
-
-
+aplay -l
+**** List of PLAYBACK Hardware Devices ****
+card 0: sofrt5682 [sof-rt5682], device 0: smart373-spk (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofrt5682 [sof-rt5682], device 1: Headset (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofrt5682 [sof-rt5682], device 2: HDMI1 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofrt5682 [sof-rt5682], device 3: HDMI2 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofrt5682 [sof-rt5682], device 4: HDMI3 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
+card 0: sofrt5682 [sof-rt5682], device 5: HDMI4 (*) []
+  Subdevices: 1/1
+  Subdevice #0: subdevice #0
