@@ -49,3 +49,14 @@ fernandoe@fernandoe:~$ sudo dmesg | grep -i sof
 [    0.398180] integrity: Loaded X.509 cert 'Microsoft UEFI CA 2023: 81aa6b3244c935bce0d6628af39827421e32497d'
 [    0.398196] integrity: Loaded X.509 cert 'Microsoft Windows Production PCA 2011: a92902398e16c49778cd90f99e4f9ae17c55af53'
 [    0.398216] integrity: Loaded X.509 cert 'Microsoft Corporation: Windows UEFI CA 2023: aefc5fbbbe055d8f8daa585473499417ab5a5272'
+
+fernandoe@fernandoe:~$ sudo apt install linux-firmware
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+linux-firmware is already the newest version (20240318.git3b128b60-0ubuntu2.19).
+linux-firmware set to manually installed.
+0 to upgrade, 0 to newly install, 0 to remove and 0 not to upgrade.
+fernandoe@fernandoe:~$ lspci -nnk | grep -i audio
+00:1f.3 Multimedia audio controller [0401]: Intel Corporation Tiger Lake-LP Smart Sound Technology Audio Controller [8086:a0c8] (rev 20)
+	DeviceName: Multimedia audio controller
